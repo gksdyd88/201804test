@@ -26,8 +26,8 @@ Mavenプロジェクトを作成
   
 ## twitter4j
 ・pom.xmlに追記  
-    \<dependency\>  
-      \<groupId\>org.twitter4j\</groupId\>  
-      \<artifactId\>twitter4j-core\</artifactId\>  
-      \<version\>[4.0,)\</version\>  
-    \</dependency\>  
+	\<dependency\>  
+	  \<groupId\>org.twitter4j\</groupId\>  
+	  \<artifactId\>twitter4j-core\</artifactId\>  
+	  \<version\>[4.0,)\</version\>  
+	\</dependency\>  
