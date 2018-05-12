@@ -28,7 +28,9 @@ public class SearchTweets {
 					+ "args3 : ACCESS_TOKEN, args4 : ACCESS_TOKEN_SECRET");
 			System.exit(0);
 		}
+		System.out.println("検索を開始します");
 		
+		// 初期化
 		initTwitter(args);
 		
 		int searchCount = 0;
@@ -91,6 +93,7 @@ public class SearchTweets {
 			}
 			imageNum++;
 		}
+		System.out.println("検索した画像の保存が終了しました");
 	}
 	
 	// 認証情報を設定
